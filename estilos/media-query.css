@@ -1,1 +1,86 @@
 @charset "UTF-8";
+
+@media screen and (min-width:480px){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+    main{
+        width: 50%;
+        height: 60%;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 4px 4px 20px rgb(185, 183, 183);
+    }
+    .result{
+        border-radius: 20px;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    #circle{
+        height: 25vh;
+        width: 25vh;
+    }
+    .title{
+        font-size: 1em;
+    }
+    #main-score{
+        font-size: 3em;
+    }
+    #text-legend{
+        color: rgb(150, 148, 148);
+    }
+    #great{
+        font-size: 1.5em;
+    }
+    .summary{
+        width: 50%;
+        float: right;
+        height: 100%;
+    }
+    #submit{
+        padding-bottom: 15px;
+        border-radius: 30px;
+    }
+    #submit:hover{
+        cursor: pointer;
+        background-image: linear-gradient(
+        to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)
+    );
+    }
+    #title-summary{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    .break{
+        display: block;
+    }
+    .no-break{
+        display: none;
+    }
+    .card{
+        background-color: brown;
+        height: 10%;
+        padding: 10px;
+    }
+    #cards{
+        padding: 0px;
+        height: 100%;
+    }
+    #sec1{
+        height: 15%;
+    }
+    #sec2{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #sec3{
+        height: 25%;
+    }
+}

@@ -174,3 +174,11 @@ img{
 .hundred{
     color: gray;
 }
+
+.break{
+    display: none;
+}
+
+.no-break{
+    display: block;
+}
