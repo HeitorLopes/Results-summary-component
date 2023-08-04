@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" 
+  href="./assets/images/favicon-32x32.png">  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Hanken+Grotesk">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main>
+        <div class="result">
+            <div class="title center">
+                <div>Your Result</div>
+            </div>
+            <div id="score" class="center">
+                <div id="circle" class="center">
+                    <div id="main-score">76</div>
+                    <div id="text-legend">of 100</div>
+                </div>
+            </div>
+            <div id="great">
+                Great
+            </div>
+            <div id="text-result">
+                <p>
+                You scored higher than 65% of the<br>
+                people who have taken these tests.
+                </p>
+            </div>
+        </div>
+        <div class="summary">
+            <div id="cards">
+                <div id="title-summary">
+                    Summary
+                </div>
+                <div class="card" id="card-reaction">
+                    <div class="description">
+                        <img src="./assets/images/icon-reaction.svg">
+                        <div id="reaction-description">Reaction</div>
+                    </div>
+                    <div>
+                        <span class="points">80</span>
+                        <span class="hundred"> / 100</span>
+                    </div>
+                </div>
+                <div class="card" id="card-memory">
+                    <div class="description">
+                        <img src="./assets/images/icon-memory.svg">
+                        <div id="memory-description">Memory</div>
+                    </div>
+                    <div>
+                        <span class="points">92</span>
+                        <span class="hundred"> / 100</span>
+                    </div>
+                </div>
+                <div class="card" id="card-verbal">
+                    <div class="description">
+                        <img src="./assets/images/icon-verbal.svg">
+                        <div id="verbal-description">Verbal</div>
+                    </div>
+                    <div>
+                        <span class="points">61</span>
+                        <span class="hundred"> / 100</span>
+                    </div>
+                </div>
+                <div class="card" id="card-visual">
+                    <div class="description">
+                        <img src="./assets/images/icon-visual.svg">
+                        <div id="visual-description">Visual</div>
+                    </div>
+                    <div>
+                        <span class="points">72</span>
+                        <span class="hundred"> / 100</span>
+                    </div>
+                </div>
+                <div id="button">
+                    <input type="submit" value="Continue" id="submit">
+                </div>
+            </div>
+        </div>
+    </main>
+ 
+    <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+</body>
+</html>
